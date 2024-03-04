@@ -51,7 +51,7 @@ function App() {
       setEmail("");
       setRender(!render);
       console.log(user);
-      toast.success("Contact deleted");
+      toast.success("Contact created");
     } else {
       console.log("Please fill in all the required fields");
     }
